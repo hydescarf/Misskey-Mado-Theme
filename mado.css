@@ -1,0 +1,172 @@
+/* Mado Theme for Misskey, however not exactly the same styling format. */
+/* Some elements are compromised for Misskey theming design. */
+
+/* Todo: return to :has() when firefox applies it, also to differentiate DM(Direct) post */
+
+
+/* reaction button, full height to be more visible */
+._button.xDRXD img{
+	height:100%;
+}
+
+/* quote background */
+.xD2mX.xCFgx{
+	background:linear-gradient(to bottom, var(--accentedBg), transparent);
+}
+
+/* renote background */
+.xBwhh, .x22gY, .xBwhh+.x5yeR{
+	background:var(--navBg);
+}
+@container (max-width: 480px){
+	.x22gY{
+		padding-top:4px!important;
+		margin-top:0!important;
+	}
+}
+
+/* profile field custom design */
+/* not supporting @ tag at the moment */
+.fields{
+	padding-block:0!important;
+}
+.field{
+	margin-bottom:0!important;
+}
+.field .name{
+	padding-block:4px;
+	margin-right:16px;
+	border-right:1px solid var(--divider);
+}
+.field:first-child :is(.name,.value){
+	padding-block:16px 4px;
+}
+.field:last-child :is(.name,.value){
+	padding-block:4px 16px;
+}
+.field:first-child:last-child :is(.name,.value){
+	padding-block:16px;
+}
+
+/* widget profile full size link */
+a.x41xs{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	z-index:1;
+}
+a.x41xs span.x7pHL.xgoG4, a.x41xs+.x9pVq{
+	display:none;
+}
+
+/* left navigation buttons */
+.mvcprjjd:not(.iconOnly) > .body[data-v-3946aa41]{
+	/* box-shadow:0 1px 3px var(--shadow); */
+	border-right:1px solid var(--divider);
+}
+.mvcprjjd:not(.iconOnly) .item{
+	/* line-height:2.6rem!important; */
+	margin-bottom:3px;
+}
+.mvcprjjd:not(.iconOnly) .item:before{
+	border-radius:4px!important;
+}
+.mvcprjjd:not(.iconOnly) > .body > .middle > .divider[data-v-3946aa41]{
+	margin:12px 0!important;
+}
+
+
+
+
+
+
+/* left navigation buttons icon-only */
+.mvcprjjd.iconOnly[data-v-3946aa41]{
+	flex:0 0 60px!important;
+	width:60px!important;
+}
+.mvcprjjd.iconOnly > .body[data-v-3946aa41]{
+	width:60px!important;
+	border-right:1px solid var(--divider);
+}
+.mvcprjjd.iconOnly > .body > .top[data-v-3946aa41]{
+	padding:13px 0!important;
+}
+.mvcprjjd.iconOnly > .body > .middle > .divider[data-v-3946aa41]{
+	margin:8px 0!important;
+	width:100%!important;
+}
+.mvcprjjd.iconOnly > .body > .middle > .item[data-v-3946aa41]{
+	padding-block:13px!important;
+}
+.mvcprjjd.iconOnly > .body > .middle > .item[data-v-3946aa41]:hover::before, .mvcprjjd.iconOnly > .body > .middle > .item.active[data-v-3946aa41]::before{
+	z-index:-1;
+	border-radius:4px!important;
+}
+.mvcprjjd.iconOnly > .body > .bottom > .post[data-v-3946aa41]{
+	margin-bottom:12px!important;
+}
+.mvcprjjd.iconOnly > .body > .bottom > .post[data-v-3946aa41]::before{
+	width:70%!important;
+	border-radius:4px!important;
+}
+
+
+
+/* panel shadow & outline */
+.xjptQ,.x93hF{ /* removing overflow-clip to reveal shadow, not using :has() because of firefox */
+	overflow:unset!important;
+}
+._panel,
+.x884h, /* favourite page */
+.xzSZs.xwehs, /* timeline panel, not using .xjptQ because of "separating posts" option */
+.xzSZs:not(.xwehs) > .xqbRq .x3762,
+.fcuexfpr > .note > .main > .note > .note[data-v-f5bd3ec4], /* popup notes */
+.xcMdN{ /* theme editor panels */
+	box-shadow:0 1px 3px var(--shadow);
+	border:1px solid var(--divider);
+	
+	/* bandage fix for border radius clip */
+	border-radius:var(--radius);
+	overflow:clip;
+}
+
+/* shadow on popup */
+._shadow,
+.xhAPG{ /* when right-click is set for emoji only */
+	box-shadow:0 2px 7px var(--shadow)!important;
+	border:1px solid var(--divider);
+}
+
+
+/* account popup */
+/* container */
+.x7rzo{
+	padding:0!important;
+}
+/* button */
+.xunvs{
+	padding:8px 16px!important;
+	line-height:24px!important;
+	display:flex!important;
+	align-items:center;
+}
+.xunvs::before{
+	width:100%!important;
+	border-radius:0!important;
+}
+/* button icon */
+.xunvs .xw5W9{
+	width:24px!important;
+	height:24px!important;
+	margin-bottom:3px;
+}
+/* divider */
+.xzo34{
+	margin:0!important;
+}
