@@ -1,7 +1,7 @@
 {
-	id: '6ba532ed-3af3-4d1a-9dcb-17025e53273e',
+	id: '91b815ca-ece2-4160-911d-67723c0d3c84',
 	base: 'light',
-	name: 'Mado Light v1.0',
+	name: 'Mado Light v1.1',
 	props: {
 		X2: ':darken<2<@panel',
 		X3: 'rgba(0, 0, 0, 0.05)',
@@ -30,7 +30,7 @@
 		focus: ':alpha<0.3<@accent',
 		navBg: 'hsla(210, 45%, 95%, 1)',
 		navFg: '@fg',
-		panel: 'hsla(180, 33%, 99%, 1)',
+		panel: ':hsla(180, 33%, 99%, 1)',
 		popup: ':lighten<3<@panel',
 		accent: 'hsl(210,93%,62%)',
 		header: ':alpha<0.7<@panel',
@@ -43,7 +43,7 @@
 		mention: '@accent',
 		modalBg: 'rgba(0, 0, 0, 0.3)',
 		success: '#86b300',
-		buttonBg: 'hsla(204, 45%, 95%, 1)',
+		buttonBg: 'rgba(0, 0, 0, 0.05)',
 		switchBg: 'rgba(0, 0, 0, 0.15)',
 		acrylicBg: ':alpha<0.5<@bg',
 		cwHoverBg: '#bbc4ce',
