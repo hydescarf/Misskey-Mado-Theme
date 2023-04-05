@@ -1,4 +1,4 @@
-# Misskey Mado Theme
+# Misskey Mado Theme v1.1
 Misskeyのための個人テーマシリーズ「Mado」
 
 ## 導入方法
