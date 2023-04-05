@@ -3,8 +3,8 @@ Misskeyのための個人テーマシリーズ「Mado」
 
 ## 導入方法
 
-1. `設定`→`テーマ`→`テーマインストール`→「[mado_light.txt](https://github.com/hydescarf/Misskey-Mado-Theme/blob/main/mado_light.txt)」か「[mado_dark.txt](https://github.com/hydescarf/Misskey-Mado-Theme/blob/main/mado_dark.txt)」の中身を貼り付けてインストールボタンを押す。
-2. `設定`→`全般`→`カスタムCSS`→「[mado.css](https://github.com/hydescarf/Misskey-Mado-Theme/blob/main/mado.css)」の中身を貼り付けて保存ボタンを押す。
+1. `設定`→`テーマ`→`テーマインストール`→「[mado_light.txt](https://github.com/hydescarf/Misskey-Mado-Theme/blob/main/mado_light.txt)」か「[mado_dark.txt](https://github.com/hydescarf/Misskey-Mado-Theme/blob/main/mado_dark.txt)」の中身を貼り付けて`インストール`ボタンを押す。
+2. `設定`→`全般`→`カスタムCSS`→「[mado.css](https://github.com/hydescarf/Misskey-Mado-Theme/blob/main/mado.css)」の中身を貼り付けて`保存`ボタンを押す。
 
 ## 変わるところ
 
