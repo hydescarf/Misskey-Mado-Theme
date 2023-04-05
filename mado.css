@@ -26,7 +26,6 @@
 }
 
 /* profile field custom design */
-/* not supporting @ tag at the moment */
 .fields{
 	padding-block:0!important;
 }
@@ -35,8 +34,11 @@
 }
 .field .name{
 	padding-block:4px;
-	margin-right:16px;
-	border-right:1px solid var(--divider);
+}
+.field .value{
+	padding-block:4px;
+	padding-left:16px;
+	border-left:1px solid var(--divider);
 }
 .field:first-child :is(.name,.value){
 	padding-block:16px 4px;
