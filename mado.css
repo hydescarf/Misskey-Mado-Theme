@@ -25,6 +25,25 @@
 	}
 }
 
+/* direct message background color (without using :has()) */
+span[title="ダイレクト"]{
+	position: relative;
+}
+span[title="ダイレクト"]:before{
+	content:"";
+	width:1000px;
+	height:1000px;
+	background:var(--accent);
+	position:absolute;
+	top:-50px;
+	right:-50px;
+	z-index:-1;
+	opacity:0.2;
+}
+
+
+
+
 /* profile field custom design */
 .fields{
 	padding-block:0!important;
@@ -50,21 +69,9 @@
 	padding-block:16px;
 }
 
-/* widget profile full size link */
-a.x41xs{
-	position:absolute;
-	top:0;
-	left:0;
-	width:100%;
-	height:100%;
-	display:flex;
-	align-items:center;
-	justify-content:center;
-	z-index:1;
-}
-a.x41xs span.x7pHL.xgoG4, a.x41xs+.x9pVq{
-	display:none;
-}
+
+
+
 
 /* left navigation buttons */
 .mvcprjjd:not(.iconOnly) > .body[data-v-3946aa41]{
@@ -171,4 +178,36 @@ a.x41xs span.x7pHL.xgoG4, a.x41xs+.x9pVq{
 /* divider */
 .xzo34{
 	margin:0!important;
+}
+
+
+
+
+/* New Note Emoji Window Size */
+.omfetrab.asWindow[data-v-9aafcf61]{
+	--columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.xpAOc{
+	width:500px!important;
+	height:600px!important;
+}
+
+
+
+/* オプション：必要でなければ削除でOK */
+/* ウィジェット：プロフィール全体がリンクになり、名前とIDが隠される */
+/* widget profile full size link */
+a.x41xs{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	z-index:1;
+}
+a.x41xs span.x7pHL.xgoG4, a.x41xs+.x9pVq{
+	display:none;
 }
