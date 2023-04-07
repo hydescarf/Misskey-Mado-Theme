@@ -1,5 +1,10 @@
-# Misskey Mado Theme v1.1
+# Misskey Mado Theme
 Misskeyのための個人テーマシリーズ「Mado」
+
+| ファイル | 最新バージョン |
+|:---|:---|
+| テーマ (Light/Dark) | v1.1 |
+| CSS | v1.1 |
 
 ## 導入方法
 
