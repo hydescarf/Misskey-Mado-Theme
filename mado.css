@@ -1,5 +1,5 @@
 /*                               */
-/*     Mado CSS version V1.1     */
+/*     Mado CSS version V1.2     */
 /*                               */
 
 /* Mado Theme for Misskey, however not exactly the same styling format. */
@@ -78,7 +78,7 @@ span[title="ダイレクト"]:before{
 
 
 /* left navigation buttons */
-.mvcprjjd:not(.iconOnly) > .body[data-v-3946aa41]{
+.mvcprjjd:not(.iconOnly) > .body[data-v-9f106932]{
 	/* box-shadow:0 1px 3px var(--shadow); */
 	border-right:1px solid var(--divider);
 }
@@ -103,7 +103,7 @@ span[title="ダイレクト"]:before{
 	flex:0 0 60px!important;
 	width:60px!important;
 }
-.mvcprjjd.iconOnly > .body[data-v-3946aa41]{
+.mvcprjjd.iconOnly > .body[data-v-9f106932]{
 	width:60px!important;
 	border-right:1px solid var(--divider);
 }
