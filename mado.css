@@ -1,5 +1,5 @@
 /*                               */
-/*     Mado CSS version V1.2     */
+/*     Mado CSS version V1.3     */
 /*                               */
 
 /* Mado Theme for Misskey, however not exactly the same styling format. */
@@ -43,6 +43,12 @@ span[title="ダイレクト"]:before{
 	right:-50px;
 	z-index:-1;
 	opacity:0.2;
+}
+
+/* move note action buttons(reply, renote, etc.) to the bottom, to not block the time&date link */
+.xcSej.xj38T:hover .xhAPG {
+	bottom:12px!important;
+	top:unset!important;
 }
 
 
@@ -151,7 +157,7 @@ span[title="ダイレクト"]:before{
 
 /* shadow on popup */
 ._shadow,
-.xhAPG{ /* when right-click is set for emoji only */
+.xcSej.xj38T:hover .xhAPG{ /* when action buttons only appear on hover only */
 	box-shadow:0 2px 7px var(--shadow)!important;
 	border:1px solid var(--divider);
 }
