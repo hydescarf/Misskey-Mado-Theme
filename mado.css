@@ -1,5 +1,5 @@
 /*                               */
-/*     Mado CSS version V1.3     */
+/*     Mado CSS version V1.4     */
 /*                               */
 
 /* Mado Theme for Misskey, however not exactly the same styling format. */
@@ -95,7 +95,7 @@ span[title="ダイレクト"]:before{
 .mvcprjjd:not(.iconOnly) .item:before{
 	border-radius:4px!important;
 }
-.mvcprjjd:not(.iconOnly) > .body > .middle > .divider[data-v-3946aa41]{
+.mvcprjjd:not(.iconOnly) > .body > .middle > .divider[data-v-9f106932]{
 	margin:12px 0!important;
 }
 
@@ -105,7 +105,7 @@ span[title="ダイレクト"]:before{
 
 
 /* left navigation buttons icon-only */
-.mvcprjjd.iconOnly[data-v-3946aa41]{
+.mvcprjjd.iconOnly[data-v-9f106932]{
 	flex:0 0 60px!important;
 	width:60px!important;
 }
@@ -113,24 +113,24 @@ span[title="ダイレクト"]:before{
 	width:60px!important;
 	border-right:1px solid var(--divider);
 }
-.mvcprjjd.iconOnly > .body > .top[data-v-3946aa41]{
+.mvcprjjd.iconOnly > .body > .top[data-v-9f106932]{
 	padding:13px 0!important;
 }
-.mvcprjjd.iconOnly > .body > .middle > .divider[data-v-3946aa41]{
+.mvcprjjd.iconOnly > .body > .middle > .divider[data-v-9f106932]{
 	margin:8px 0!important;
 	width:100%!important;
 }
-.mvcprjjd.iconOnly > .body > .middle > .item[data-v-3946aa41]{
+.mvcprjjd.iconOnly > .body > .middle > .item[data-v-9f106932]{
 	padding-block:13px!important;
 }
-.mvcprjjd.iconOnly > .body > .middle > .item[data-v-3946aa41]:hover::before, .mvcprjjd.iconOnly > .body > .middle > .item.active[data-v-3946aa41]::before{
+.mvcprjjd.iconOnly > .body > .middle > .item[data-v-9f106932]:hover::before, .mvcprjjd.iconOnly > .body > .middle > .item.active[data-v-9f106932]::before{
 	z-index:-1;
 	border-radius:4px!important;
 }
-.mvcprjjd.iconOnly > .body > .bottom > .post[data-v-3946aa41]{
+.mvcprjjd.iconOnly > .body > .bottom > .post[data-v-9f106932]{
 	margin-bottom:12px!important;
 }
-.mvcprjjd.iconOnly > .body > .bottom > .post[data-v-3946aa41]::before{
+.mvcprjjd.iconOnly > .body > .bottom > .post[data-v-9f106932]::before{
 	width:70%!important;
 	border-radius:4px!important;
 }
