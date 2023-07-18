@@ -1,5 +1,5 @@
 /*                               */
-/*     Mado CSS version V1.4     */
+/*     Mado CSS version V1.5     */
 /*                               */
 
 /* Mado Theme for Misskey, however not exactly the same styling format. */
@@ -84,53 +84,50 @@ span[title="ダイレクト"]:before{
 
 
 /* left navigation buttons */
-.mvcprjjd:not(.iconOnly) > .body[data-v-9f106932]{
+.xryhL.xhesn .xRtfX{
 	/* box-shadow:0 1px 3px var(--shadow); */
 	border-right:1px solid var(--divider);
 }
-.mvcprjjd:not(.iconOnly) .item{
+.xryhL.xhesn .x6KaV{
 	/* line-height:2.6rem!important; */
 	margin-bottom:3px;
 }
-.mvcprjjd:not(.iconOnly) .item:before{
+.xryhL.xhesn .x6KaV:before{
 	border-radius:4px!important;
 }
-.mvcprjjd:not(.iconOnly) > .body > .middle > .divider[data-v-9f106932]{
+.xryhL.xhesn .xClhx{
 	margin:12px 0!important;
 }
-
-
+.xryhL.xhesn .xmctl ._button.xplJN{
+	margin-bottom:12px!important;
+}
+.xryhL.xhesn .xmctl ._button.xplJN::before{
+	border-radius:4px!important;
+}
 
 
 
 
 /* left navigation buttons icon-only */
-.mvcprjjd.iconOnly[data-v-9f106932]{
+.xryhL.xghTi.xhesn{
 	flex:0 0 60px!important;
 	width:60px!important;
 }
-.mvcprjjd.iconOnly > .body[data-v-9f106932]{
+.xryhL.xghTi.xhesn .xRtfX{
 	width:60px!important;
 	border-right:1px solid var(--divider);
 }
-.mvcprjjd.iconOnly > .body > .top[data-v-9f106932]{
+.xryhL.xghTi.xhesn .x6KaV{
 	padding:13px 0!important;
 }
-.mvcprjjd.iconOnly > .body > .middle > .divider[data-v-9f106932]{
+.xryhL.xghTi.xhesn .xClhx{
 	margin:8px 0!important;
 	width:100%!important;
 }
-.mvcprjjd.iconOnly > .body > .middle > .item[data-v-9f106932]{
-	padding-block:13px!important;
-}
-.mvcprjjd.iconOnly > .body > .middle > .item[data-v-9f106932]:hover::before, .mvcprjjd.iconOnly > .body > .middle > .item.active[data-v-9f106932]::before{
-	z-index:-1;
-	border-radius:4px!important;
-}
-.mvcprjjd.iconOnly > .body > .bottom > .post[data-v-9f106932]{
+.xryhL.xghTi.xhesn .xmctl ._button.xplJN{
 	margin-bottom:12px!important;
 }
-.mvcprjjd.iconOnly > .body > .bottom > .post[data-v-9f106932]::before{
+.xryhL.xghTi.xhesn .xmctl ._button.xplJN::before{
 	width:70%!important;
 	border-radius:4px!important;
 }
