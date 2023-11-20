@@ -1,5 +1,5 @@
 /*                               */
-/*     Mado CSS version V1.5     */
+/*     Mado CSS version V1.6     */
 /*                               */
 
 /* Mado Theme for Misskey, however not exactly the same styling format. */
@@ -8,10 +8,6 @@
 /* Todo: return to :has() when firefox applies it, also to differentiate DM(Direct) post */
 
 
-/* reaction button, full height to be more visible */
-._button.xDRXD img{
-	height:100%;
-}
 
 /* quote background */
 .xD2mX.xCFgx{
@@ -197,24 +193,4 @@ span[title="ダイレクト"]:before{
 .xpAOc{
 	width:500px!important;
 	height:600px!important;
-}
-
-
-
-/* オプション：必要でなければ削除でOK */
-/* ウィジェット：プロフィール全体がリンクになり、名前とIDが隠される */
-/* widget profile full size link */
-a.x41xs{
-	position:absolute;
-	top:0;
-	left:0;
-	width:100%;
-	height:100%;
-	display:flex;
-	align-items:center;
-	justify-content:center;
-	z-index:1;
-}
-a.x41xs span.x7pHL.xgoG4, a.x41xs+.x9pVq{
-	display:none;
 }
